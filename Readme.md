@@ -1,22 +1,6 @@
-# node-bitcoin
-[![travis][travis-image]][travis-url]
-[![npm][npm-image]][npm-url]
-[![downloads][downloads-image]][downloads-url]
-[![js-standard-style][standard-image]][standard-url]
+# node-vipstarcoin
 
-[travis-image]: https://travis-ci.org/freewil/node-bitcoin.svg?branch=master
-[travis-url]: https://travis-ci.org/freewil/node-bitcoin
-
-[npm-image]: https://img.shields.io/npm/v/bitcoin.svg?style=flat
-[npm-url]: https://npmjs.org/package/bitcoin
-
-[downloads-image]: https://img.shields.io/npm/dm/bitcoin.svg?style=flat
-[downloads-url]: https://npmjs.org/package/bitcoin
-
-[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
-[standard-url]: http://standardjs.com
-
-node-bitcoin is a simple wrapper for the Bitcoin client's JSON-RPC API.
+node-vipstarcoin is a simple wrapper for the VIPSTARCOIN client's JSON-RPC API.
 
 **Unmaintained, please see [bitcoin-core](https://github.com/ruimarinho/bitcoin-core)**
 
@@ -26,7 +10,7 @@ object, or you may call the API directly using the `cmd` method.
 
 ## Install
 
-`npm install bitcoin`
+`npm install node-vipstarcoin`
 
 ## Examples
 
@@ -34,8 +18,8 @@ object, or you may call the API directly using the `cmd` method.
 ```js
 // all config options are optional
 var client = new bitcoin.Client({
-  host: 'localhost',
-  port: 8332,
+  host: '127.0.0.1',
+  port: 31916,
   user: 'username',
   pass: 'password',
   timeout: 30000
@@ -90,8 +74,8 @@ to your own bitcoind.
 
 ```js
 var client = new bitcoin.Client({
-  host: 'localhost',
-  port: 8332,
+  host: '127.0.0.1',
+  port: 31916,
   user: 'username',
   pass: 'password',
   ssl: true,

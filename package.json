@@ -1,6 +1,6 @@
 {
-  "name": "bitcoin",
-  "description": "Communicate with bitcoind via JSON-RPC",
+  "name": "node-vipstarcoin",
+  "description": "Communicate with VIPSTARCOINd via JSON-RPC",
   "version": "3.0.1",
   "main": "lib/index.js",
   "keywords": [
@@ -20,7 +20,7 @@
   "optionalDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/freewil/node-bitcoin.git"
+    "url": "git://github.com/yutotetuota/node-vipstarcoin.git"
   },
   "engines": {
     "node": ">= 0.10.0"
@@ -30,9 +30,9 @@
     "test": "make test"
   },
   "bugs": {
-    "url": "https://github.com/freewil/node-bitcoin/issues"
+    "url": "https://github.com/yutotetuota/node-vipstarcoin/issues"
   },
-  "homepage": "https://github.com/freewil/node-bitcoin#readme",
+  "homepage": "https://github.com/yutotetuota/node-vipstarcoin#readme",
   "directories": {
     "test": "test"
   },
